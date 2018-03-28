@@ -4,7 +4,7 @@ library(tidyr)
 # 0: Load the data in RStudio
 
 library(readr)
-refine_original <- read_delim("~/R projects/Ex.1 dataset/refine_original.csv", 
+refine_original <- read_delim("~/R projects/Ex.1 dataset/3.I.Refine_DW_refine_original.csv", 
                               ";", escape_double = FALSE, trim_ws = TRUE)
 View(refine_original)
 
