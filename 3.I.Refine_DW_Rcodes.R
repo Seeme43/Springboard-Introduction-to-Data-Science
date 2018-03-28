@@ -64,7 +64,7 @@ refine_original <- refine_original %>% mutate(company_philips = ifelse(company %
 
 # 6: Submit the project on Github
 
-write.csv(refine_original, file = "refine_clean.csv")
+write.csv(refine_original, file = "3.I.Refine_DW_refine_clean.csv")
 
 
 
