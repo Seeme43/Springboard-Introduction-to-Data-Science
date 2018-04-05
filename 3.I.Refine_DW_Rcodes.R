@@ -24,7 +24,7 @@ refine_original$company <- gsub(pattern = "un.*", replacement = "unilever",refin
 # b.Using dplyr 
 
 refine_original <- refine_original %>% 
-  mutate(company = tolower(refine_original$company)) %>%
+  mutate(company = tolower(company)) %>%
   mutate(company = sub(pattern = ".*ps","philips",company), 
          company = sub(pattern = "ak.*","akzo",company), 
          company = sub(pattern = "van.*","van houten",company), 
